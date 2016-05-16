@@ -1,1 +1,64 @@
-/media/carla/TOSHIBA/ISN/JEU/projet.css
+body {
+	background-color : #AA6C39 ;
+}
+
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 10px;
+	margin-bottom: 120px;
+}
+
+li {
+	margin-left: 2px;
+	float: left;
+}
+
+ul li a {
+	display:block;
+	float:left;   
+	width:200px;
+ 	background-color:#55AA55;
+ 	color:black;
+ 	text-decoration:none;
+	text-align:center;
+ 	padding:5px;
+	border:2px solid;
+}
+
+#explication{
+	margin-top: 10px ;
+	padding: 5px;
+	background-color: #669999;
+	border: 2px solid black;
+}
+
+#bio{
+	margin-top: 10px ;
+	padding: 5px;
+	background-color: #D46A6A;
+	border: 2px solid black;
+}
+
+#regles{
+	margin-top: 10px ;
+	padding: 5px;
+	background-color: #669999;
+	border: 2px solid black;
+}
+
+#debut{
+	margin-top: 10px ;
+	padding: 5px;
+	background-color: #669999;
+	border: 2px solid black;
+}
+
+#difficultes{
+	margin-top: 10px ;
+	padding: 5px;
+	background-color: #D46A6A;
+	border: 2px solid black;
+
+}
