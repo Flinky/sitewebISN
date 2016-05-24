@@ -1,1 +1,30 @@
-/media/carla/TOSHIBA/ISN/JEU/siteweb/evolution.html
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="projet.css" media="screen" />
+	<title>Evolution</title>
+</head>
+
+<body>
+
+<h1 align="center">l'Evolution du projet</h1>
+
+<ul>
+<li><a href="/sitewebISN/index.html"> <h2>Jeu</h2></a></li>
+<li><a href="/sitewebISN/regles.html"> <h2>Regles</h2></a></li>
+<li><a href="/sitewebISN/evolution.html"> <h2>Evolution</h2></a></li>
+</ul>
+
+<div id="debut">
+<h2>Conception du projet</h2>
+<p>La consigne: avec les competences acquises au cours de l'annee en Java avec l'application Javascool, creer un jeu en binome. On est parti sur l'idee d'un jeu multiplayer ou les deux joueurs devrait surmonter des obstacles ensemble. On a decide que avec le temps qu'on avait n'etait pas assez pour developper un tel jeu avec les sockets, mais on aimait quand meme l'idee des obstacles et un pion controlable. Alors est venu l'idee d'un jeu sur le modele de 'snake' avec une icone en mouvement perpetuelle controlable avec des touches du clavier. Pour ne pas simplement reprendre 'snake' on a imagine d'autres regles -  l'icone ne grandirait pas - il devrait eviter des obstacles et se retrouver a une case dans la grille, qui changerait de location a chaque niveau. A chaque niveau aussi la vitesse de l'icone augmenterait.</p>
+</div>
+
+<div id="difficultes">
+<h2>Difficultes et solutions trouves (ou non)</h2>
+<p> 1. Une des plus gros difficultes etait de faire fontionner keyListener. Au final on a du faire autrement, avec des boutons cliquables.
+2. Avec GridLayout on n'a pas pu mettre deux panneaux dans la meme fenetre, donc le menu et les boutons ont ete integres dans la premiere ligne du grid, et le plateau jouable est defini a partir de la deuxieme ligne·</p>
+</div>
+
+</body>
+</html>
